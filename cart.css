@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(145deg, #55566a 0%, #131318 76%);
+    color: #fff;;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    background: -webkit-linear-gradient(0deg, #f76591, #ffc16f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 0.8;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(145deg, #000000 30%, #747474 76%);
+    padding: 0 20px;
+    height: 60px; 
+    color: #fff;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    color: #f08804;
+    font-family: "Dancing Script", cursive;
+    background: -webkit-linear-gradient(0deg, #f76591, #ffc16f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px; 
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 200px; /* Space between links */
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 16px;
+}
+
+.navbar .search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between input and button */
+}
+
+.navbar .search-box input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.navbar .search-box button {
+    background-color: #f08804; 
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.navbar .search-box button:hover {
+    background-color: #e07603; 
+}
+h2 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: #fff;
+}
+
+#cart-items {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+    background: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#cart-items p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+#total-price {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a button {
+    background-color: #28a745;
+}
+
+a button:hover {
+    background-color: #218838;
+}
+
